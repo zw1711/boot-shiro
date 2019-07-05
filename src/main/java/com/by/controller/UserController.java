@@ -45,6 +45,7 @@ public class UserController {
                 log.info("密码错误");
             }
         }
+
         return "redirect:/success.jsp";
 
     }
